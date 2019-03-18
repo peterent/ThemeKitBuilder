@@ -29,6 +29,8 @@ public struct TKFont {
             default:
                 return UIFont.systemFont(ofSize: size)
             }
+        } else if let customFont = UIFont(name: fontName, size: size) {
+            return customFont
         } else {
             return nil
         }

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03186820223FB1A400268260 /* Oswald-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0318681F223FB1A400268260 /* Oswald-ExtraLight.ttf */; };
+		03186822223FB1C800268260 /* Oswald-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 03186821223FB1C800268260 /* Oswald-Regular.ttf */; };
 		03A562C5223ACD9200212C83 /* ThemeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03A562C4223ACD9200212C83 /* ThemeKit.framework */; };
 		03A562C6223ACD9200212C83 /* ThemeKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 03A562C4223ACD9200212C83 /* ThemeKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		03DE55ED2233F22700D2007A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03DE55EC2233F22700D2007A /* AppDelegate.swift */; };
@@ -32,6 +34,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0318681F223FB1A400268260 /* Oswald-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oswald-ExtraLight.ttf"; sourceTree = "<group>"; };
+		03186821223FB1C800268260 /* Oswald-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oswald-Regular.ttf"; sourceTree = "<group>"; };
 		03A562C4223ACD9200212C83 /* ThemeKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ThemeKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		03DE55E92233F22700D2007A /* ThemeKitBuilder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThemeKitBuilder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03DE55EC2233F22700D2007A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -55,6 +59,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		03186823223FB1FC00268260 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				0318681F223FB1A400268260 /* Oswald-ExtraLight.ttf */,
+				03186821223FB1C800268260 /* Oswald-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		03DE55E02233F22700D2007A = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +92,7 @@
 				03DE55EE2233F22700D2007A /* ViewController.swift */,
 				03DE55F02233F22700D2007A /* Main.storyboard */,
 				03DE55F32233F22A00D2007A /* Assets.xcassets */,
+				03186823223FB1FC00268260 /* Fonts */,
 				03DE55F52233F22A00D2007A /* LaunchScreen.storyboard */,
 				03DE55FE2233F26100D2007A /* StandardTheme.plist */,
 				03DE55F82233F22A00D2007A /* Info.plist */,
@@ -146,6 +160,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				03DE55F72233F22A00D2007A /* LaunchScreen.storyboard in Resources */,
+				03186822223FB1C800268260 /* Oswald-Regular.ttf in Resources */,
+				03186820223FB1A400268260 /* Oswald-ExtraLight.ttf in Resources */,
 				03DE55F42233F22A00D2007A /* Assets.xcassets in Resources */,
 				03DE55F22233F22700D2007A /* Main.storyboard in Resources */,
 				03DE55FF2233F26100D2007A /* StandardTheme.plist in Resources */,

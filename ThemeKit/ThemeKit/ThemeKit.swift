@@ -30,6 +30,10 @@ public class ThemeKit {
         return colors[colorName]
     }
     
+    public func font(name fontName: String, ofSize size: CGFloat) -> UIFont? {
+        return fonts[fontName]?.font(ofSize: size)
+    }
+    
     public func border(for typeName: String) -> TKBorder? {
         guard let borderName = content(for: typeName, of: "border") as? String else {
             return nil
